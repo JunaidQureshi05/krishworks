@@ -1,0 +1,77 @@
+.Navbar{
+    background-color: #fbfbfc;
+    padding:10px 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 20px;
+}
+.logo h1,p {
+    margin:0;
+}
+
+.logo i.fa-tooth {
+    font-size: 50px;
+    color:#0044e9;
+}
+
+i.bars {
+    color:darkgrey;
+}
+
+.logo p{
+    color:darkgray;
+    font-size:12px;
+    letter-spacing: 0.5px;
+}
+.logo h1 {
+    font-size: 28px;
+}
+
+ul.links {
+    color: dimgray;
+    list-style: none;
+    width: 100%;
+    padding: 0%;
+    margin-top: 20px;
+}
+
+ul.links li {
+    padding:5px;
+    padding-left:20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+ul.links i {
+    color:silver;
+    margin-right: 10px;
+    margin:10px 0;
+    font-size: 14px;
+    width: 30px;
+}
+
+
+ul.links li a{
+ text-decoration: none;
+ color:dimgray;
+}
+li.active,
+li.active a {
+    background-color: royalblue;
+    color: white;
+}
+
+
+ul.links li a{
+    color:dimgray;
+    text-decoration: none;
+}
+
+ul.links li.active a{
+    color:white;
+}

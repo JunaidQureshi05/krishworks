@@ -1,0 +1,76 @@
+.Header{
+    display: flex;
+    padding:0 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+.right {
+    display: flex;
+}
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.Header .left i{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #195bfc;
+}
+
+.right,.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header input,.Header button {
+    border: none;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+.Header .search button {
+    padding:0 10px;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search input {
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.search input:focus {
+    outline: none;
+}
+button.add {
+    background-color: #0044e9;
+    color:white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+    .fa-bell{
+   color:grey;
+   background-color:#ccc;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+    }
