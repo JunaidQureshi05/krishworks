@@ -1,0 +1,93 @@
+.Overview{
+    width:600px;
+    height:300px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    width:60px;
+    height: 60px;
+}
+
+.image img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.left-part p{
+    text-align: center;
+}
+
+.left-part .appointments{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    
+}
+
+.appointments  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointments{
+    color:grey;
+    display: flex;
+    justify-content: space-between;
+}
+.appointments .no {
+    font-weight: bold;
+    color: black;
+}
+
+.left-part > div {
+    margin-top: 10px;
+}
+.left-part button{
+    margin-top:10px;
+    border: none;
+    width: 200px;
+    padding:5px 10px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    font-weight: bold;
+    color:#616b78;
+}
+
+
+.right-part {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.right-part > div {
+width: 100px;
+margin: 10px;
+font-size: 12px;
+
+}
+
+.Overview .label {
+    color:grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.right-part >div{
+    border-bottom: 1px solid rgba(228, 226, 226, 0.8);
+}
+

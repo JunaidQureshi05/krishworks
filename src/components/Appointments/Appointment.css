@@ -1,0 +1,46 @@
+.Appointments {
+    margin-top: 10px;
+    width: 600px;
+    background-color: white;
+    padding:20px;
+}
+.btns button{
+    border:none;
+    cursor:pointer;
+   
+    font-size: 14px;
+    color:white; 
+    background-color: grey;
+    padding:10px 15px;
+}
+.records{
+    margin-top: 10px;
+    background-color: rgb(230, 224, 224);
+    padding:10px;
+}
+.record {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:10px;
+    border-radius: 5px;
+    margin:10px 0;
+}
+
+.record {
+    font-size: 12px;
+}
+.label{
+    color:grey;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btns{
+    padding:5px;
+    background-color: #eff1f7;
+}
+.btn-active{
+     background-color: white !important;
+     color: #1156fc !important;
+}

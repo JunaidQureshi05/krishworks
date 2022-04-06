@@ -3,6 +3,9 @@ import './PatientPage.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Header from '../Header/Header';
+import Overview from '../Overview/Overview';
+import Appointments from '../Appointments/Appointments';
+import Notes from '../../Notes/Notes';
 const MainContent = () => {
   const [patient, setPatient] = useState({});
   useEffect(() => {
@@ -10,10 +13,6 @@ const MainContent = () => {
       const { data } = await axios.get(
         'https://619f39821ac52a0017ba467e.mockapi.io/patientDetails'
       );
-      const { data: filesData } = await axios.get(
-        'https://619f39821ac52a0017ba467e.mockapi.io/Files'
-      );
-      console.log(filesData[0]);
       setPatient(data[0]);
     };
     getData();
@@ -21,7 +20,11 @@ const MainContent = () => {
   return (
     <div className="PatientPage">
       <Header name={patient.name} />
-      <div></div>
+      <div className="main">
+        <Overview patient={patient} />
+        <Notes />
+        <Appointments />
+      </div>
     </div>
   );
 };
