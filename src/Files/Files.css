@@ -1,0 +1,35 @@
+.Files {
+     margin: auto;
+     width: 350px;
+     height: 300px;
+     margin-top: 20px;
+     background-color: white;
+     border-radius: 10px;
+     padding: 10px;
+}
+
+.Files .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Files .link {
+    color:#1156fc;
+    font-size: 14px;
+}
+
+.files li{
+    list-style:none;
+    padding:10px;
+    border: 1px solid rgb(228, 222, 222);
+    margin:10px 0;
+    border-radius: 5px;
+
+}
+.Files .heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+.files{
+    color:grey;
+}

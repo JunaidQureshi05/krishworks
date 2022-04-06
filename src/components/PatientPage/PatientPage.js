@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import Overview from '../Overview/Overview';
 import Appointments from '../Appointments/Appointments';
 import Notes from '../../Notes/Notes';
+import Files from '../../Files/Files';
 const MainContent = () => {
   const [patient, setPatient] = useState({});
   useEffect(() => {
@@ -24,6 +25,7 @@ const MainContent = () => {
         <Overview patient={patient} />
         <Notes />
         <Appointments />
+        <Files />
       </div>
     </div>
   );
